@@ -1,6 +1,6 @@
 // Fungsi untuk mengambil data jadwal dari server
 export async function fetchSchedulesIndex() {
-  const response = await fetch('https://travelapps-asep-hendars-projects.vercel.app/schedules');
+  const response = await fetch('https://travelapps-7lop2oali-asep-hendars-projects.vercel.app/schedules');
   if (!response.ok) {
       throw new Error('Network response was not ok ' + response.statusText);
   }
